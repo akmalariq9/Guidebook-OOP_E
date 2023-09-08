@@ -38,13 +38,13 @@ git config --global user.email "youremail@gmail.com"
 Setelah git terkoneksi dengan github, maka langkah selanjutnya adalah membuat repository. Untuk pembuatan repository dapat mengikuti langkah berikut:
 - _Login_ ke github dan klik tombol berikut:
 
-![oop4](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/103bed8d-cde4-4bbb-a2c2-f495a65ccb3a)
+![oop3](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/edb3ca88-ad78-4cdb-9efc-4004504f0b7c)
 
-- Lakukan _setup_ sesuai dengan preferensi masing-masing.
+- Lakukan _setup_ sesuai dengan kebutuhan masing-masing.
 
 ![oop4](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/e343fa4e-182e-43aa-a7fc-3a3b64782dbc)
 
-- Tampilan awal saat repository berhasil dibuat.
+- Tampilan awal saat repository berhasil dibuat adalah sebagai berikut:
 
 ![oop5](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/73361200-e149-4bfe-9a5e-87942441fb8b)
 
@@ -57,9 +57,10 @@ _Clone_ github repository bertujuan untuk menduplikasi dan mengedit repository t
 ![oop7](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/c7b52891-454d-4bbe-9619-69b92a0de5f9)
 
 - Lakukan _copy_ pada url yang ada sesuai pada gambar berikut:
+
 ![oop8](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/a216b35f-9aca-4b97-a8b4-4cec5dca5472)
 
-- Masuk ke direktori yang akan kalian gunakan untuk meletakkan folder repository, kemudian gunakan perintah ```git clone <link>``` pada terminal untuk melakukan _clone_.
+- Masuk ke direktori yang akan kalian gunakan untuk meletakkan folder repository, kemudian gunakan perintah ```git clone <link>``` pada terminal shell atau git bash untuk melakukan _clone_.
 
 ![oop9](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/2aa8bdb8-558e-4fae-8ce1-5e4a06bbff3b)
 
@@ -67,7 +68,32 @@ _Clone_ github repository bertujuan untuk menduplikasi dan mengedit repository t
 
 ![oop10](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/65817984-f6d2-4f56-a06a-4c37294f5f57)
 
-## **Git Push**
-Soon.
+## **Git Commit - Push**
+Git Commit / Push merupakan salah satu kegiatan untuk menyimpan atau memperbarui file dari sebuah repository. File yang awalnya diedit pada direktori lokal akan diupload kedalam repository. Untuk melakukan git push, dapat mengikuti langkah-langkah berikut:
+
+- Masuk kedalam file yang akan diedit atau di-push kedalam repository menggunakan IDE. Berikut adalah tampilan repository awal pada github dan direktori lokal yang belum mengalami perubahan:
+
+![oop10](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/65817984-f6d2-4f56-a06a-4c37294f5f57)
+
+![Screenshot (874)](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/1dbb5eaf-a4cc-4888-b1d5-ce2cb5077354)
+
+- Lakukan perubahan pada file yang diinginkan. Misalnya merubah readme, menambah code di sebuah file, menambahkan gambar di folder, dan sebagainya. Berikut adalah tampilan pada direktori lokal setelah melakukan beberapa perubahan seperti menambahkan folder img, menambahkan file gambar, merubah isi dari _markdown file_, dan menambahkan file .c
+
+![oop11](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/1e1f87e5-e1fa-4680-95ff-f0178bc7a32c)
+
+- Setelah selesai melakukan perubahan, maka push dapat dilakukan dengan menjalankan perintah berikut pada terminal atau git bash:
+```
+git add .
+```
+```
+git commit -m "enter your commit messages"
+```
+```
+git push origin
+```
+
+- Setelah menjalankan perintah berikut, maka repository pada github akan berubah seperti pada gambar berikut:
+
+![Screenshot (876)](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/d2a1896c-56b2-4ffc-bbe3-dbd407639f89)
 
 
