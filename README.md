@@ -38,7 +38,7 @@ git config --global user.email "youremail@gmail.com"
 Setelah git terkoneksi dengan github, maka langkah selanjutnya adalah membuat repository. Untuk pembuatan repository dapat mengikuti langkah berikut:
 - _Login_ ke github dan klik tombol berikut:
 
-![oop3](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/edb3ca88-ad78-4cdb-9efc-4004504f0b7c)
+![oop13](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/4944c610-ef7e-4c68-a600-376c2dd8067a)
 
 - Lakukan _setup_ sesuai dengan kebutuhan masing-masing.
 
@@ -104,5 +104,8 @@ Berikut adalah contoh saat melakukan commit atau push melalui git bash:
 - Setelah menjalankan perintah berikut, maka repository pada github akan berubah seperti pada gambar berikut:
 
 ![Screenshot (876)](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/d2a1896c-56b2-4ffc-bbe3-dbd407639f89)
+
+## **The End**
+Makasi teman-teman, kalo ada yang ditanyakan bisa langsung WA aja yaa, gausaa sungkan!
 
 
