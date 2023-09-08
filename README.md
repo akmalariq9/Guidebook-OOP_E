@@ -4,7 +4,6 @@
 Berikut adalah _guidebook_ atau panduan dasar untuk pengerjaan tugas mata kuliah _Object Oriented Programming_ (OOP) kelas E tahun 2023. 
 
 ## **Prerequisite**
-<div align=justify>
 Sebelum masuk ke tutorial, terdapat beberapa prasyarat yang harus dipenuhi, yaitu sebagai berikut: <br>
 
 - Eclipse IDE (https://eclipseide.org/)
@@ -25,23 +24,48 @@ Git merupakan salah satu _tools_ yang diperlukan untuk melakukan maintenance pad
 ![image](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/11dd78c6-a3ff-49c9-a50a-4f480e1b064d)
 
 ## **Connect Credential Github to Git**
-Soon.
+Setelah melakukan instalasi git, langkah selanjutnya adalah menyambungkan _credential_ dengan github. Untuk melakukannya, dapat mengikuti langkah berikut:
+- Buka Git bash atau terminal pada windows, kemudian masukkan code berikut:
+```c
+git config --global user.name "Your Username"
+```
+- Setelah itu, dapat dilanjutkan dengan memasukkan code berikut:
+```c
+git config --global user.email "youremail@gmail.com"
+```
 
-## **Start and Clone Github Repository**
-- Salin link repository yang ingin di clone
-  
-![image](https://github.com/Rencist/dummy/assets/91055469/db242dd4-a133-472e-9e3f-b0398023ea67)
+## **Start Github Repository**
+Setelah git terkoneksi dengan github, maka langkah selanjutnya adalah membuat repository. Untuk pembuatan repository dapat mengikuti langkah berikut:
+- _Login_ ke github dan klik tombol berikut:
 
-- Gunakan perintah ```git clone <link>``` pada terminal untuk melakukan clone repository
+![oop4](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/103bed8d-cde4-4bbb-a2c2-f495a65ccb3a)
 
-![image](https://github.com/Rencist/dummy/assets/91055469/047a6dd0-19be-494c-9d4a-07c4ea27e1ed)
+- Lakukan _setup_ sesuai dengan preferensi masing-masing.
 
-![image](https://github.com/Rencist/dummy/assets/91055469/465bc4c1-39be-4b00-b090-0ff07e01a88d)
+![oop4](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/e343fa4e-182e-43aa-a7fc-3a3b64782dbc)
 
-- Buka folder repository yang sudah di clone menggunakan IDE
+- Tampilan awal saat repository berhasil dibuat.
 
-![image](https://github.com/Rencist/dummy/assets/91055469/69c25937-bcc5-4981-86a0-b34f94e6d252)
+![oop5](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/73361200-e149-4bfe-9a5e-87942441fb8b)
 
+
+## **Clone Github Repository**
+_Clone_ github repository bertujuan untuk menduplikasi dan mengedit repository tersebut di direktori lokal. Untuk melakukan _clone_ dapat mengikuti langkah-langkah berikut:
+
+- Masuk kedalam repository yang akan di _clone_
+
+![oop7](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/c7b52891-454d-4bbe-9619-69b92a0de5f9)
+
+- Lakukan _copy_ pada url yang ada sesuai pada gambar berikut:
+![oop8](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/a216b35f-9aca-4b97-a8b4-4cec5dca5472)
+
+- Masuk ke direktori yang akan kalian gunakan untuk meletakkan folder repository, kemudian gunakan perintah ```git clone <link>``` pada terminal untuk melakukan _clone_.
+
+![oop9](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/2aa8bdb8-558e-4fae-8ce1-5e4a06bbff3b)
+
+- Tunggu proses selesai dan buka folder repository yang sudah di clone menggunakan IDE.
+
+![oop10](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/65817984-f6d2-4f56-a06a-4c37294f5f57)
 
 ## **Git Push**
 Soon.
