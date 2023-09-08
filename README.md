@@ -46,7 +46,7 @@ Setelah git terkoneksi dengan github, maka langkah selanjutnya adalah membuat re
 
 - Tampilan awal saat repository berhasil dibuat adalah sebagai berikut:
 
-![oop5](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/73361200-e149-4bfe-9a5e-87942441fb8b)
+![oop6](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/83c6d79a-f04b-4470-becc-c964991d713b)
 
 
 ## **Clone Github Repository**
@@ -73,7 +73,11 @@ Git Commit / Push merupakan salah satu kegiatan untuk menyimpan atau memperbarui
 
 - Masuk kedalam file yang akan diedit atau di-push kedalam repository menggunakan IDE. Berikut adalah tampilan repository awal pada github dan direktori lokal yang belum mengalami perubahan:
 
-![oop10](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/65817984-f6d2-4f56-a06a-4c37294f5f57)
+Github Repository:
+
+![oop6](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/83c6d79a-f04b-4470-becc-c964991d713b)
+
+Direktori Lokal:
 
 ![Screenshot (874)](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/1dbb5eaf-a4cc-4888-b1d5-ce2cb5077354)
 
@@ -91,6 +95,11 @@ git commit -m "enter your commit messages"
 ```
 git push origin
 ```
+
+Berikut adalah contoh saat melakukan commit atau push melalui git bash:
+
+![oop12](https://github.com/akmalariq9/Guidebook-OOP_E/assets/109916703/acb655f7-0e02-49b2-9bae-5f9472bf79de)
+
 
 - Setelah menjalankan perintah berikut, maka repository pada github akan berubah seperti pada gambar berikut:
 
